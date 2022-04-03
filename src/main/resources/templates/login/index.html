@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta do Auxílio Emergencial</title>
+    <link href="../../static/css/global.css" th:href="@{/css/global.css}" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body class="flex_wrap_center">
+    <main class="main flex_wrap_center">
+        <div class="metade loginImg"></div>
+        <div class="metade">
+            <form th:action="@{/login}" method="post" class="flex_wrap_center">
+                <label> Nome:
+                    <input type="text" name="username" id="username">
+                </label>
+      
+                  <label> Senha:
+                      <input type="password" name="password" id="password">
+                  </label>
+      
+                  <input type="submit" value="Login">
+              </form>
+        </div>
+    </main>
+</body>
+</html>
