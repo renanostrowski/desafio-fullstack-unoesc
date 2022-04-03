@@ -1,10 +1,10 @@
-package com.springframe.springframe.api.implementation;
+package br.edu.unoesc.desafiofullstackunoesc.api.implementation;
 
-import com.springframe.springframe.api.interfaces.iApiExterna;
-import com.springframe.springframe.model.dto.AuxilioEmergencialDTO;
-import com.springframe.springframe.model.entity.AuxilioEmergencial;
-import com.springframe.springframe.model.form.AuxilioEmergencialForm;
-import com.springframe.springframe.reposository.iAuxilioEmergencialRepository;
+import br.edu.unoesc.desafiofullstackunoesc.api.interfaces.iApiExterna;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.AuxilioEmergencialDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.AuxilioEmergencial;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.AuxilioEmergencialForm;
+import br.edu.unoesc.desafiofullstackunoesc.reposository.iAuxilioEmergencialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;

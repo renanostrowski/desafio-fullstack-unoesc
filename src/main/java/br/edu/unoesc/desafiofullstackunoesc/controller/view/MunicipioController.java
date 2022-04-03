@@ -1,13 +1,13 @@
-package com.springframe.springframe.controller.view;
+package br.edu.unoesc.desafiofullstackunoesc.controller.view;
 
-import com.springframe.springframe.exceptions.CustomErrorType;
-import com.springframe.springframe.model.dto.MunicipioDTO;
-import com.springframe.springframe.model.dto.UnidadeFederativaDTO;
-import com.springframe.springframe.model.dto.UsuarioDTO;
-import com.springframe.springframe.model.entity.Municipio;
-import com.springframe.springframe.model.form.MunicipioForm;
-import com.springframe.springframe.services.municipio.interfaces.iMunicipioService;
-import com.springframe.springframe.services.unidadeFederativa.interfaces.iUnidadeFedetativaService;
+import br.edu.unoesc.desafiofullstackunoesc.exceptions.CustomErrorType;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.MunicipioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.UnidadeFederativaDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.UsuarioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Municipio;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.MunicipioForm;
+import br.edu.unoesc.desafiofullstackunoesc.services.municipio.interfaces.iMunicipioService;
+import br.edu.unoesc.desafiofullstackunoesc.services.unidadeFederativa.interfaces.iUnidadeFedetativaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

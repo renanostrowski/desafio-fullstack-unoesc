@@ -1,7 +1,7 @@
-package com.springframe.springframe.model.dto;
+package br.edu.unoesc.desafiofullstackunoesc.model.dto;
 
-import com.springframe.springframe.model.entity.Municipio;
-import com.springframe.springframe.model.entity.UnidadeFederativa;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Municipio;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.UnidadeFederativa;
 
 public class MunicipioDTO {
     private Long codigoIBGE;

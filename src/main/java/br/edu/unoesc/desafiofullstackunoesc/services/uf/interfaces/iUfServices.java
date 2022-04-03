@@ -1,4 +1,4 @@
-package com.springframe.springframe.services.uf.interfaces;
+package br.edu.unoesc.desafiofullstackunoesc.services.uf.interfaces;
 
 public class iUfServices {
 }

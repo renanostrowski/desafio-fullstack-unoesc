@@ -1,7 +1,7 @@
-package com.springframe.springframe.reposository;
+package br.edu.unoesc.desafiofullstackunoesc.reposository;
 
-import com.springframe.springframe.model.dto.MunicipioDTO;
-import com.springframe.springframe.model.entity.Municipio;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.MunicipioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Municipio;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

@@ -1,6 +1,6 @@
-package com.springframe.springframe.reposository;
+package br.edu.unoesc.desafiofullstackunoesc.reposository;
 
-import com.springframe.springframe.model.entity.AuxilioEmergencial;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.AuxilioEmergencial;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

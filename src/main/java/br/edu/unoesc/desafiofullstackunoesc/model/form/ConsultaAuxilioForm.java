@@ -1,4 +1,4 @@
-package com.springframe.springframe.model.form;
+package br.edu.unoesc.desafiofullstackunoesc.model.form;
 
 import java.util.Date;
 

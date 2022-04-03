@@ -1,6 +1,6 @@
-package com.springframe.springframe.security;
+package br.edu.unoesc.desafiofullstackunoesc.security;
 
-import com.springframe.springframe.services.usuario.implementation.UsuarioServiceImpl;
+import br.edu.unoesc.desafiofullstackunoesc.services.usuario.implementation.UsuarioServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

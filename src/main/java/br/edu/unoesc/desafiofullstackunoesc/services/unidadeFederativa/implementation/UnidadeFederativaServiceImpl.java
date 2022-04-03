@@ -1,10 +1,10 @@
-package com.springframe.springframe.services.unidadeFederativa.implementation;
+package br.edu.unoesc.desafiofullstackunoesc.services.unidadeFederativa.implementation;
 
-import com.springframe.springframe.model.dto.MunicipioDTO;
-import com.springframe.springframe.model.dto.UnidadeFederativaDTO;
-import com.springframe.springframe.model.entity.UnidadeFederativa;
-import com.springframe.springframe.reposository.iUnidadeFederativaRepository;
-import com.springframe.springframe.services.unidadeFederativa.interfaces.iUnidadeFedetativaService;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.MunicipioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.UnidadeFederativaDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.UnidadeFederativa;
+import br.edu.unoesc.desafiofullstackunoesc.reposository.iUnidadeFederativaRepository;
+import br.edu.unoesc.desafiofullstackunoesc.services.unidadeFederativa.interfaces.iUnidadeFedetativaService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

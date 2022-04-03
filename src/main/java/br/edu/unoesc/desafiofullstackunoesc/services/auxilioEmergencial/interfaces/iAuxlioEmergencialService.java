@@ -1,7 +1,7 @@
-package com.springframe.springframe.services.auxilioEmergencial.interfaces;
+package br.edu.unoesc.desafiofullstackunoesc.services.auxilioEmergencial.interfaces;
 
-import com.springframe.springframe.model.dto.AuxilioEmergencialDTO;
-import com.springframe.springframe.model.form.AuxilioEmergencialForm;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.AuxilioEmergencialDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.AuxilioEmergencialForm;
 
 import java.util.List;
 

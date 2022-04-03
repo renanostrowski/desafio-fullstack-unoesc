@@ -1,4 +1,4 @@
-package com.springframe.springframe.model.entity;
+package br.edu.unoesc.desafiofullstackunoesc.model.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

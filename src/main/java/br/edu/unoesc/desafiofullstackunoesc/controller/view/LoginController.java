@@ -1,8 +1,8 @@
-package com.springframe.springframe.controller.view;
+package br.edu.unoesc.desafiofullstackunoesc.controller.view;
 
-import com.springframe.springframe.model.dto.UsuarioDTO;
-import com.springframe.springframe.model.form.UsuarioForm;
-import com.springframe.springframe.security.UserDetailsServiceImpl;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.UsuarioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.UsuarioForm;
+import br.edu.unoesc.desafiofullstackunoesc.security.UserDetailsServiceImpl;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

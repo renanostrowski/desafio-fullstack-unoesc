@@ -1,7 +1,7 @@
-package com.springframe.springframe.services.csv.interfaces;
+package br.edu.unoesc.desafiofullstackunoesc.services.csv.interfaces;
 
-import com.springframe.springframe.model.entity.AuxilioEmergencial;
-import com.springframe.springframe.model.form.AuxilioEmergencialForm;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.AuxilioEmergencial;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.AuxilioEmergencialForm;
 
 import java.util.List;
 

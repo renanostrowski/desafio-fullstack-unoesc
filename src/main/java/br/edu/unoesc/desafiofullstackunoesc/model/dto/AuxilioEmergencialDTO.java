@@ -1,7 +1,7 @@
-package com.springframe.springframe.model.dto;
+package br.edu.unoesc.desafiofullstackunoesc.model.dto;
 
-import com.springframe.springframe.model.entity.AuxilioEmergencial;
-import com.springframe.springframe.model.entity.Municipio;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.AuxilioEmergencial;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Municipio;
 
 import java.math.BigDecimal;
 import java.util.Date;

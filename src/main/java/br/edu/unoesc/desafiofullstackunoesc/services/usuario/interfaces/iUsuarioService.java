@@ -1,8 +1,8 @@
-package com.springframe.springframe.services.usuario.interfaces;
+package br.edu.unoesc.desafiofullstackunoesc.services.usuario.interfaces;
 
-import com.springframe.springframe.model.dto.UsuarioDTO;
-import com.springframe.springframe.model.entity.Usuario;
-import com.springframe.springframe.model.form.UsuarioForm;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.UsuarioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Usuario;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.UsuarioForm;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.springframe.springframe.model.form;
+package br.edu.unoesc.desafiofullstackunoesc.model.form;
 
 
-import com.springframe.springframe.model.entity.AuxilioEmergencial;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.AuxilioEmergencial;
 
 import java.math.BigDecimal;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.springframe.springframe.exceptions.model;
+package br.edu.unoesc.desafiofullstackunoesc.exceptions.model;
 
 public class FormError {
     private final String field;

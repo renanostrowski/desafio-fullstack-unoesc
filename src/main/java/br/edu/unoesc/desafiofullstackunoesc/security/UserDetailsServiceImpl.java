@@ -1,7 +1,8 @@
-package com.springframe.springframe.security;
+package br.edu.unoesc.desafiofullstackunoesc.security;
 
-import com.springframe.springframe.model.entity.Usuario;
-import com.springframe.springframe.reposository.iUsuarioRepository;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Usuario;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Usuario;
+import br.edu.unoesc.desafiofullstackunoesc.reposository.iUsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

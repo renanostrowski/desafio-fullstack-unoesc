@@ -1,4 +1,4 @@
-package com.springframe.springframe.exceptions.model;
+package br.edu.unoesc.desafiofullstackunoesc.exceptions.model;
 
 import org.springframework.http.HttpStatus;
 

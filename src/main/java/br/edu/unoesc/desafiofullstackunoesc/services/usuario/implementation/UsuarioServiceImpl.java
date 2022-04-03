@@ -1,14 +1,14 @@
-package com.springframe.springframe.services.usuario.implementation;
+package br.edu.unoesc.desafiofullstackunoesc.services.usuario.implementation;
 
-import com.springframe.springframe.exceptions.CustomErrorType;
-import com.springframe.springframe.model.dto.UsuarioDTO;
-import com.springframe.springframe.model.entity.Municipio;
-import com.springframe.springframe.model.entity.Usuario;
-import com.springframe.springframe.model.form.UsuarioForm;
-import com.springframe.springframe.reposository.iMunicipioRepository;
-import com.springframe.springframe.reposository.iUsuarioRepository;
-import com.springframe.springframe.services.municipio.interfaces.iMunicipioService;
-import com.springframe.springframe.services.usuario.interfaces.iUsuarioService;
+import br.edu.unoesc.desafiofullstackunoesc.exceptions.CustomErrorType;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.UsuarioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Municipio;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Usuario;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.UsuarioForm;
+import br.edu.unoesc.desafiofullstackunoesc.reposository.iMunicipioRepository;
+import br.edu.unoesc.desafiofullstackunoesc.reposository.iUsuarioRepository;
+import br.edu.unoesc.desafiofullstackunoesc.services.municipio.interfaces.iMunicipioService;
+import br.edu.unoesc.desafiofullstackunoesc.services.usuario.interfaces.iUsuarioService;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

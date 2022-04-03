@@ -1,4 +1,4 @@
-package com.springframe.springframe.services.uf.Implementation;
+package br.edu.unoesc.desafiofullstackunoesc.services.uf.Implementation;
 
 public class UfServiceImpl {
 }

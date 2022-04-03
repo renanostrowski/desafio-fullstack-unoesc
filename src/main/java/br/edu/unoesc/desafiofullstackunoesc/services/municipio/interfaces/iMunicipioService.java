@@ -1,8 +1,8 @@
-package com.springframe.springframe.services.municipio.interfaces;
+package br.edu.unoesc.desafiofullstackunoesc.services.municipio.interfaces;
 
-import com.springframe.springframe.model.dto.MunicipioDTO;
-import com.springframe.springframe.model.entity.Municipio;
-import com.springframe.springframe.model.form.MunicipioForm;
+import br.edu.unoesc.desafiofullstackunoesc.model.dto.MunicipioDTO;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Municipio;
+import br.edu.unoesc.desafiofullstackunoesc.model.form.MunicipioForm;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
 

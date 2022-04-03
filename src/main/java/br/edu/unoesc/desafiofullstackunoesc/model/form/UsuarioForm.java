@@ -1,6 +1,6 @@
-package com.springframe.springframe.model.form;
+package br.edu.unoesc.desafiofullstackunoesc.model.form;
 
-import com.springframe.springframe.model.entity.Usuario;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Usuario;
 
 public class UsuarioForm {
 

@@ -1,4 +1,4 @@
-package com.springframe.springframe.security;
+package br.edu.unoesc.desafiofullstackunoesc.security;
 
 public enum Roles {
     ADMIN("ADMIN"),

@@ -1,6 +1,6 @@
-package com.springframe.springframe.model.dto;
+package br.edu.unoesc.desafiofullstackunoesc.model.dto;
 
-import com.springframe.springframe.model.entity.Usuario;
+import br.edu.unoesc.desafiofullstackunoesc.model.entity.Usuario;
 
 public class UsuarioDTO {
 
