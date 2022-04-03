@@ -15,6 +15,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -36,12 +37,16 @@ public class UsuarioServiceImpl implements iUsuarioService {
     }
 
     public UsuarioDTO salvarUsuario(UsuarioForm usuarioForm) {
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         Usuario usuario = usuarioReposity.buscarPorEmail(usuarioForm.getEmail());
         if(usuario == null) {
             usuario = usuarioForm.convert();
             if(usuarioForm.getCodigoIBGE() == null) throw new CustomErrorType("Munícipio não informado!");
             Municipio municipio = municipioRepository.findByCodigoIBGE(usuarioForm.getCodigoIBGE());
             usuario.setMunicipio(municipio);
+            String pass = usuario.getSenha();
+            pass = encoder.encode(pass);
+            usuario.setSenha(pass);
             usuario = usuarioReposity.save(usuario);
             return new UsuarioDTO(usuario);
         } else {
