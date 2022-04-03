@@ -1,0 +1,26 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cadastrar usuário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+    <div>
+        <form action="#" th:action="@{/uf/salvar}" th:object="${form}" method="post">
+            <h2 class="h2 mb-3 font-weight-normal">Cadastrar Cidade</h2>
+            <span th:if="${error}"  th:text="${error}" style="color: red">Error</span>
+            <!--<div>
+                <div class="alert alert-danger">Usuário ou senha inválidos.</div>
+            </div>-->
+            <input name="sigla" type="text" class="form-control padInput"
+                   placeholder="Sigla estado" autofocus="autofocus" required="true" th:field="${form.sigla}"/>
+            <input name="nomeIBGE" type="text" class="form-control padInput"
+                   placeholder="Nome" autofocus="autofocus" required="true" th:field="${form.nome}"/>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Salvar</button>
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cadastrar usuário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+<form action="#" th:action="@{/salvar}" th:object="${formUser}" method="post">
+    <span th:if="${error}"  th:text="${error}" style="color: red">Error</span>
+    <h2 class="h2 mb-3 font-weight-normal">Cadastrar usuário</h2>
+    <!--<div>
+        <div class="alert alert-danger">Usuário ou senha inválidos.</div>
+    </div>-->
+    <input name="nome" type="text" class="form-control padInput"
+           placeholder="Nome" autofocus="autofocus" required="true" th:field="${usuario.nome}"/>
+    <input name="email" type="text" class="form-control padInput"
+           placeholder="E-mail" autofocus="autofocus" required="true" th:field="${usuario.email}"/>
+    <input name="senha" type="text" class="form-control padInput"
+           placeholder="Senha" autofocus="autofocus" required="true" th:field="${usuario.senha}"/>
+    <select id="pais" th:field="*{codigoIBGE}" class="form-control padInput">
+        <option value="">Selecione o munícipio</option>
+        <option th:each="m : ${municipios}" th:value="${m.codigoIBGE}" th:field="*{codigoIBGE}" th:text="${m.nomeIBGE}" selected="selected"></option>
+    </select>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Salvar</button>
+</form>
+</body>
+</html>
